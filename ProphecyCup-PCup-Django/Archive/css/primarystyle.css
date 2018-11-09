@@ -1,0 +1,281 @@
+﻿/*
+    Text color for standard background: #e2e2e2;
+*/
+
+body
+{
+    margin:0px;
+    background-image:url(../images/background.png);
+    color:white;
+    padding:0px;
+    font-family:DINPro;
+}
+
+/*
+    information on image
+*/
+header{
+    padding-top:15px;
+    text-align:center;
+    
+}
+    header .title {
+        position: absolute;
+        top: 70px;
+        right: 10%;
+
+    }
+        header .title h1 {
+            font-family: sans-serif;
+            font-size: 4vw;
+            text-shadow: 2px 2px #313131;
+        }
+        header .title h2 {
+            font-family: sans-serif;
+            font-size: 2.8vw;
+            text-shadow: 1.5px 1.5px #313131;
+        }
+.bannerWrapper {
+    position: relative;
+    text-align: center;
+}
+main h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px #000000, 0px 0px 2px red;
+}
+main h2 {
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #a32a4a;
+    text-shadow: 1px 1px #313131;
+}
+main h3 {
+    color: #c6a25b;
+}
+main h4 {
+    color: #ede6b7;
+}
+main ul{
+    margin-left:40px;
+    list-style:circle;
+}
+
+/*
+    scheduled matches
+*/
+aside {
+    position: absolute;
+    width: 300px;
+    height: 75%;
+    background: rgba(49,49,49, 0.6);
+    filter: alpha(opacity=60);
+    left: 4%;
+    top: 13.5%;
+    border-radius: 40px;
+    overflow:auto;
+}
+aside h3{
+    text-align: center;
+    margin-bottom:3px;
+}
+    aside h4 {
+        text-align: center;
+        font-size: 16px;
+        margin:0px;
+    }
+    aside p {
+        padding:0 20px;
+        margin:0px;
+    }
+aside a{
+    color:white;
+}
+
+    aside .indent{
+        margin-left:20px;
+    }
+    aside .spacing{
+        margin-left:10px;
+    }
+
+    aside #matchesInfo {
+        padding: 20px 0px;
+    }
+
+section img{
+    float: left;
+}
+section div{
+    border-color:dimgrey;
+    border-width:1px;
+    border-style:solid;
+    height:260px;
+    padding:20px;
+    margin-top:20px;
+}
+section p{
+    margin-left:300px;
+    margin-right:20px;
+}
+        section h3 {
+            text-align: center;
+            font-size: 28px;
+            font-family: sans-serif;
+            color: #a32a4a;
+            text-shadow: 1px 1px #313131;
+        }
+#announcements h3 {
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #a32a4a;
+    text-shadow: 1px 1px #313131;
+}
+/*
+    footer
+*/
+footer {
+    background-color: #515151;
+    color: white;
+    margin-top:50px;
+}
+    footer #container {      
+        max-width: 1250px;
+        min-width: 900px;
+        margin: auto;
+    }
+    footer #flex {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom:30px;
+    }
+    footer #disclaimer {
+        border-top:1px solid grey;
+        padding:10px 5px;
+    }
+footer #flex div{
+    width:33.33%;
+    text-align:center;
+
+}
+footer ul{
+   list-style:none;
+   padding:0px;
+}
+footer li{
+    padding:2px 0;
+}
+footer p{
+    margin:0px;
+    padding:7px;
+}
+footer a{
+    color:white;
+}
+footer a:hover{
+    color:black;
+}
+
+footer #copyright{
+    text-align:center;
+    font-weight:bold;
+}
+/*
+    heading background colors tournaments/community/announcements
+*/
+
+
+h1 {
+    color: #a32a4a;
+    font-size: 30px;
+    text-align: center;
+}
+/*footer heading*/
+h5 {
+    color: #c6a25b;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px black;
+}
+/*default text light grey*/
+p {
+    font-size: 17px;
+    color: #e2e2e2;
+}
+
+a {
+    color: #9c8fbd;
+}
+    a:hover {
+        color: #ede6b7;
+    }
+
+/*red highlight for dates and times*/
+.redHighlight {
+    color: #a32a4a;
+    font-weight: bold;
+}
+
+/*advertisement fill in*/
+.advertisement{
+    width:100%;
+    height:100px;
+    background-color:white;
+    color:black;
+    text-align:center;
+    font-size:20px;
+}
+.advertisement p{
+    color:black;
+}
+
+/*wrapper for main text*/
+.mainwrapper{
+    max-width:1250px;
+    min-width:950px;
+    margin:auto;
+    position:relative;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+/*Announcements text*/
+#announcements {
+    border: 1px solid grey;
+    margin: 50px 0px;
+    font-size: 17px;
+    color: #e2e2e2;
+}
+    #announcements li {
+        margin: 15px 25px;
+        color: #e2e2e2;
+    }
+    #announcements li .redHighlight {
+    color: #a32a4a;
+    font-weight: bold;
+}
+    #announcements ul {
+        margin: 15px 25px;
+        font-size: 17px;
+    }
+/*wrapper for image*/
+#imagewrapper {
+    max-width: 1400px;
+    min-width: 900px;
+    margin: auto;
+    position: relative;
+}
+/*adjustment of jhin image for size of browser*/
+#jhin{
+    width:100%;
+    object-fit:cover;
+}
+@media screen and (max-width:899px){
+
+}

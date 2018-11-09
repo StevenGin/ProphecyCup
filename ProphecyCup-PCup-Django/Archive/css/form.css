@@ -1,0 +1,11 @@
+﻿body
+{
+}
+.spacing{
+    margin:20px 0;
+}
+#announcements{
+    width:100%;
+    height:400px;
+    margin:auto;
+}
