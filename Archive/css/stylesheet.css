@@ -1,0 +1,146 @@
+﻿/*colors
+    Text color for standard background: #d3d3d3;
+    Main: 514373
+    Hover: #832841
+    border + second hover: #400e1a*/
+*/
+body
+{
+}
+
+.format{
+}
+
+    .format li {
+        list-style: none;
+        float: left;
+        padding: 40px;
+    }
+    .format ul {
+        
+    }
+
+
+.banner {
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+    padding-top:50px;
+    margin-bottom:50px;
+    position:relative;
+    width:950px;
+}
+
+.teamName {
+    text-align:initial;
+    padding-left:40px;
+}
+
+#team {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+
+    #team tr:hover {
+        background-color: grey;
+        cursor: pointer
+    }
+
+    #team tr {
+        background-color: #2f2f2f;
+    }
+
+    #team td {
+        padding: 10px 0;
+    }
+
+    #team th {
+        padding: 10px;
+        background-color: #514373;
+        font-size: 24px;
+        cursor: context-menu;
+    }
+#standings {
+    width: 8%;
+}
+#playoff{
+    width:30%;
+}
+
+.games{
+    width:15%;
+}
+
+#players {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    border-color: teal;
+    border-width: .5px;
+    border-style: solid;
+}
+
+    #players td {
+        background-color: #2f2f2f;
+        padding: 10px 15px;
+    }
+
+    #players th {
+        background-color: teal;
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    #players .tableDivision {
+        border-bottom-color: teal;
+        border-bottom-width: .5px;
+        border-bottom-style: dashed;
+    }
+
+
+    #players #role{
+        width:15%;
+    }
+    #players #ign{
+        width:20%
+    }
+    #players #discord{
+        width:25%
+    }
+    #players #rank{
+        width:15%
+    }
+    .points{
+        width:10%;
+    }
+    #players .center{
+        text-align:center;
+    }
+    #opgg{
+        width:15%;
+    }
+/*standing page logo*/
+.teamLogo{
+    width:100px;
+}
+
+/*logo on team page over banner*/
+#teamicon{
+    position: absolute;
+    top: 85px;
+    left:20%;
+}
+.teamNameBanner {
+    color:aqua;
+}
+.mediaAbout{
+    display:flex;
+    justify-content: space-around;
+
+}
+    .mediaAbout img {
+        float: left;
+        margin: 50px;
+    }
